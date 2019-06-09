@@ -6,10 +6,16 @@
 
   <PropertyGroup>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\images\46676093455_6542c35208_k.jpg" />
+    <Content Include="wwwroot\images\aa-logo-white.png" />
+    <Content Include="wwwroot\images\AALogo.png" />
+    <Content Include="wwwroot\images\snowballs.jpg" />
     <Content Include="wwwroot\images\d02map.jpg" />
+    <Content Include="wwwroot\images\snowballs2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
