@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
-    <ApplicationIcon>favicon.ico</ApplicationIcon>
+   <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <UserSecretsId>e79147af-068d-4a1f-857d-c788da835794</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
