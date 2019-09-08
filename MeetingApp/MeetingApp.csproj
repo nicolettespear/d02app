@@ -1,33 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
-
   <ItemGroup>
-    <Content Include="wwwroot\images\46676093455_6542c35208_k.jpg" />
-    <Content Include="wwwroot\images\aa-logo-white.png" />
-    <Content Include="wwwroot\images\AALogo.png" />
-    <Content Include="wwwroot\images\snowballs.jpg" />
-    <Content Include="wwwroot\images\d02map.jpg" />
-    <Content Include="wwwroot\images\snowballs2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.4" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.4" />
-    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.4" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.3" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.2" />
